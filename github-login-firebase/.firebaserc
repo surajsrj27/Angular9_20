@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "anggitapp-2c95e": {
+      "hosting": {
+        "github-login-firebase": [
+          "anggitapp-2c95e"
+        ]
+      }
+    }
+  }
+}

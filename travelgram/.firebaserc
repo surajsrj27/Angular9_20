@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angsocialmediaapp": {
+      "hosting": {
+        "travelgram": [
+          "angsocialmediaapp"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<div class="container w-50 mt-5 text-center">
+  <div class="text-center display-3 m-3 text-white">
+    Word Limit: {{limit}}
+  </div>
+
+<input 
+type="range"
+min="1"
+max="50"
+value="{{ limit }}"
+class="slider form-control-range"
+(change)="handleSlideChange($event.target.value)"
+/>
+<div class="inline-block">
+<button (click)="generate()" class="btn btn-info m-2">Generate Words</button>
+<button (click)="generateCountries()" class="btn btn-warning">Generate Random Countriess</button>
+</div>
+
+<div>
+  <div *ngIf="words" class="card card-body mb-2">
+    <p class="display-5">
+      Random Words:
+    </p>
+    <p class="display-4">
+      {{ words }}
+    </p>
+  </div>
+
+  <div *ngIf="countries" class="card card-body">
+    <p class="display-5">
+      Random Countries:
+    </p>
+    <p class="display-4">
+      {{ countries }}
+    </p>
+  </div>
+</div>
+
+</div>
+

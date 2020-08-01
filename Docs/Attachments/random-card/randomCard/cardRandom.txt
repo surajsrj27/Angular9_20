@@ -1,0 +1,54 @@
+################## Global CSS  #########################
+
+
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* for toast importing */
+@import "~ngx-toastr/toastr";
+
+/* reset */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/background.jpg);
+}
+
+
+
+################## app CSS  #########################
+
+
+.app {
+  min-height: 100vh;
+}
+
+
+################## card CSS  #########################
+
+
+.card {
+  margin-top: 125px;
+}
+img {
+  margin-top: -80px;
+}
+
+
+
+################## npm install  #########################
+
+npm install bootstrap ngx-toastr
+npm install @fortawesome/fontawesome-svg-core
+npm install @fortawesome/free-solid-svg-icons
+npm install @fortawesome/angular-fontawesome
+
+
+
+
